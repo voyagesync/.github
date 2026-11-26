@@ -1,0 +1,17 @@
+version = 1
+SPDX-PackageName = "voyagesync/.github"
+SPDX-PackageSupplier = "Voyage <contact@team.voyage>"
+SPDX-PackageDownloadLocation = "https://github.com/voyagesync/.github"
+
+[[annotations]]
+path = "**"
+precedence = "closest"
+SPDX-FileCopyrightText = "2026 Voyage contributors"
+SPDX-License-Identifier = "Apache-2.0"
+
+# The Contributor Covenant text, adapted with Voyage's reporting details.
+[[annotations]]
+path = "CODE_OF_CONDUCT.md"
+precedence = "override"
+SPDX-FileCopyrightText = ["Organization for Ethical Source", "2026 Voyage contributors"]
+SPDX-License-Identifier = "CC-BY-SA-4.0"
